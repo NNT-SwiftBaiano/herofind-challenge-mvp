@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_launchscreen_hero_find" translatesAutoresizingMaskIntoConstraints="NO" id="z7N-aI-dkF">
+                                <rect key="frame" x="0.0" y="291" width="393" height="295"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heros_launchscreen_hero_find" translatesAutoresizingMaskIntoConstraints="NO" id="e1x-al-IFv">
+                                <rect key="frame" x="0.0" y="516" width="393" height="241"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.85098039215686272" green="0.015686274509803921" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="z7N-aI-dkF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4rZ-D4-OPj"/>
+                            <constraint firstItem="e1x-al-IFv" firstAttribute="leading" secondItem="z7N-aI-dkF" secondAttribute="leading" id="ALS-R0-XEO"/>
+                            <constraint firstItem="e1x-al-IFv" firstAttribute="trailing" secondItem="z7N-aI-dkF" secondAttribute="trailing" id="Ef3-Nh-mCd"/>
+                            <constraint firstItem="z7N-aI-dkF" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="daQ-aW-ieU"/>
+                            <constraint firstItem="z7N-aI-dkF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="232" id="mLd-4f-OAo"/>
+                            <constraint firstItem="e1x-al-IFv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="457" id="wCL-yn-FaS"/>
+                            <constraint firstItem="z7N-aI-dkF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ww0-Ug-94D"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heros_launchscreen_hero_find" width="390" height="241"/>
+        <image name="logo_launchscreen_hero_find" width="390" height="390"/>
+    </resources>
+</document>
