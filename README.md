@@ -1,6 +1,6 @@
 # HeroFind
 
-<img width="200" src="logo-url">
+<img width="200" src="https://github.com/NNT-SwiftBaiano/herofind-challenge-mvp/blob/main/HeroFind/Assets.xcassets/logo_hero_find.imageset/logo_hero_find.png">
 
 <hr>
 
