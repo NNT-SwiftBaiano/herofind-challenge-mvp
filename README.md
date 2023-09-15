@@ -9,7 +9,7 @@
 > Descrição do projeto
 
 ## 🎥 DEMO
-https://github.com/yago-marques/WeCare/assets/84297648/c504d956-131e-4e8d-8e5f-a7f1b78063db
+[![Video Demo do Projeto](https://img.youtube.com/vi/YYd4Ln6i7tw/0.jpg)](https://www.youtube.com/watch?v=YYd4Ln6i7tw)
 
 ## 👩🏾‍💻 Technologies
 - [x] UIKit
